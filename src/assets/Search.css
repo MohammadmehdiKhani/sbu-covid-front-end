@@ -1,0 +1,59 @@
+/*defining my vars*/
+:root {
+    --internal-padding: 10px;
+    --platinium: #E5E4E2;
+    --pewter: #899499;
+    --intenal-padding: 5px;
+    --intenal-space: 5px;
+    --external-space: 15px;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*style of left side of navbar that contains the Search component*/
+.navbar-left {
+    display: flex;
+    gap: var(--intenal-space);
+    align-items: center;
+}
+
+/*style of "SBU covid"*/
+.title {
+    min-width: 90px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+/*style of search box*/
+.search-country-box {
+    padding: var(--intenal-padding);
+}
+
+/*style of the go btn*/
+.go-btn {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 10px;
+    min-width: 10px;
+    padding: 5px 5px 5px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.go-btn:hover {
+    opacity: .70;
+}

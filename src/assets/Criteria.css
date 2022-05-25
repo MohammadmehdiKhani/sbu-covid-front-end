@@ -1,0 +1,25 @@
+/*defining my vars*/
+:root {
+    --my-dark-gray: rgb(51, 51, 51);
+    --my-light-gray: rgb(243, 243, 243);
+    --intenal-space: 5px;
+    --external-space: 15px;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*style of the right part of navbar that contains Criteria component*/
+.navbar-right {
+    display: flex;
+    gap: var(--external-space);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*style of 3 divs that exist in Criteria component*/
+.item-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--intenal-space);
+    align-items: center;
+    color: var(--my-dark-gray);
+}

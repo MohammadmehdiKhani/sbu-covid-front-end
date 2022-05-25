@@ -1,0 +1,37 @@
+/*defining my vars*/
+:root {
+  --internal-padding: 10px;
+  --platinium: #E5E4E2;
+  --pewter: #899499;
+  --intenal-padding: 5px;
+  --intenal-space: 5px;
+  --external-space: 15px;
+  --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*style of the navbar that contains Search and Criteria components*/
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px var(--pewter);
+  justify-content: space-between;
+}
+
+/*style of lower part of page (the container that contains SearchHistory and CountryCardList component*/
+.history-and-countries {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*style of container of the countries*/
+.countries {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}

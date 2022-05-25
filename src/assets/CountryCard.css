@@ -1,0 +1,84 @@
+/*defining my vars*/
+:root {
+    --internal-padding: 10px;
+    --my-dark-gray: rgb(51, 51, 51);
+    --my-light-gray: rgb(243, 243, 243);
+    --my-light_red: rgb(224, 68, 68);
+    --my-light-green: rgb(77, 219, 77);
+    --intenal-padding: 5px;
+    --intenal-space: 5px;
+    --external-space: 15px;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*style of the card that shows country information*/
+.country-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--my-light-gray);
+    box-shadow: 0px 0px 10px var(--pewter);
+    padding: var(--intenal-padding);
+    margin: 10px;
+    border-radius: 1%;
+}
+
+/*header of the country card*/
+.header {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: var(--intenal-space);
+    padding-left: var(--intenal-space);
+    color: var(--my-dark-gray);
+}
+
+/*first information col*/
+.first-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/*second information col*/
+.second-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.first-row_of_first-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-row_of_second-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*color of the fields that are top of the numbers (for exp: Today cases*/
+.field {
+    color: var(--my-dark-gray);
+}
+
+.total-cases {
+    color: var(--my-dark-gray);
+}
+
+.today-deaths {
+    color: var(--my-light_red);
+}
+
+.today-recovered {
+    color: var(--my-light-green);
+}
+
+.critical {
+    color: var(--my-dark-gray);
+}
